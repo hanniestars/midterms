@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<title>ENTER ITEM AND AMOUNT OF EXPENSE</title>
+	<body>
+		<form role = "form" method = "POST" action = "/save">
+			<label for = "item" class = "col-sm-2 control label">Item</label>
+			<input type = "text" class = "form-control" name = "item" placeholder = "Enter item" value = "<% =@self.item %>">
+			<label for = "item" class = "col-sm-2 control label">Expense</label>
+			<input type = "text" class = "form-control" name = "amount" placeholder = "Enter amount of expense" value = "<% =@self.amount %>">
+	</body>
+</html>
